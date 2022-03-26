@@ -18,7 +18,7 @@ const PxStore = () => {
         const fetchData = async () => {
             setLoading(true);
             try {
-                const { data: response } = await axios.get('http://localhost:3000/report/202203/20220325');
+                const { data: response } = await axios.get('https://ck77.github.io/pxstore/report.json');
                 setData(response);
 
             } catch (error) {
