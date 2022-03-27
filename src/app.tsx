@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { IStore, IProduct } from './interface/IStore';
+import { IStore } from './interface/IStore';
 import Card from './component/card';
 
 const App = () => {
@@ -65,6 +65,5 @@ const renderStoreList = (stores: Array<IStore>) => {
         </div>
     )
 }
-
 
 export default App;
